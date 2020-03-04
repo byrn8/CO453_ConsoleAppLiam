@@ -1,0 +1,11 @@
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.exe
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.deps.json
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.runtimeconfig.json
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.runtimeconfig.dev.json
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.dll
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\bin\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.pdb
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\obj\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.csprojAssemblyReference.cache
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\obj\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.AssemblyInfoInputs.cache
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\obj\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.AssemblyInfo.cs
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\obj\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.dll
+D:\AppProg (new)\CO453_ConsoleAppLiam\CO453_ConsoleAppLiam\obj\Debug\netcoreapp3.1\CO453_ConsoleAppLiam.pdb
