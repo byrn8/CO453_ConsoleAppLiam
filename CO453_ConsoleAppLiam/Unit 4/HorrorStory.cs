@@ -5,7 +5,9 @@ using System.Text;
 namespace CO453_ConsoleAppLiam.Unit_4
 {
     /// <summary>
-    /// This is the class i used for Task 4.2 and 4.3 Horror Story
+    /// Class used for the horror story in task 4.2 & 4.3
+    /// The class can generate a horror story based on certain variables the user inputs
+    /// 
     /// Author: Liam Byrnes
     /// </summary>
     class HorrorStory
@@ -31,6 +33,9 @@ namespace CO453_ConsoleAppLiam.Unit_4
             bus = "37";
         }
         
+        /// <summary>
+        /// This method gets the answers to the questions
+        /// </summary>
         public string GetString(string prompt)
         {
             string answer;
@@ -39,6 +44,9 @@ namespace CO453_ConsoleAppLiam.Unit_4
             return answer;
         }
         
+        /// <summary>
+        /// This method gives the user the option between auto and manual
+        /// </summary>
         public void GetDetails()
         {
             Console.WriteLine("Would you like to use the default method or would like to fill the story in yourself?");
@@ -59,7 +67,10 @@ namespace CO453_ConsoleAppLiam.Unit_4
             }
         }
         
-        public void CheckGender()
+        /// <summary>
+        /// This method confirms the gender of the user and uses it to write the story
+        /// </summary>
+        public void ConfirmGender()
         {
             if (sex == "Male" || sex == "male")
             {
@@ -71,6 +82,9 @@ namespace CO453_ConsoleAppLiam.Unit_4
             }
         }
         
+        /// <summary>
+        /// This is the method used to write out the first chapter of the horror story
+        /// </summary>
         public void WriteChapter1()
         {
             Console.Clear();
@@ -83,7 +97,10 @@ namespace CO453_ConsoleAppLiam.Unit_4
                 + ", realising that " + gender + " had been followed.");
             Console.WriteLine("In the shadow of a doorway, a demented " + job + " waited, clutching a menacing " + weapon + " in his hand.");
         }
-        
+
+        /// <summary>
+        /// This is the method used to write out the second chapter of the horror story
+        /// </summary>
         public void WriteChapter2()
         {
             Console.WriteLine("A Horror Story : by " + author);

@@ -4,6 +4,12 @@ using System.Text;
 
 namespace CO453_ConsoleAppLiam.Unit_5
 {
+    /// <summary>
+    /// Class used for the bates motel in task 5.6
+    /// The class will 
+    /// 
+    /// 
+    /// </summary>
     class Motel
     {
         int[] rooms; 

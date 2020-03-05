@@ -4,12 +4,22 @@ using System.Text;
 
 namespace CO453_ConsoleAppLiam.Unit_5
 {
+    /// <summary>
+    /// Class used for the MP3 chart in task 5.2
+    /// The class will show a list of songs and the user can vote which one they like the most
+    /// At the end it will display which song got the most votes
+    /// 
+    /// Author: Liam Byrnes
+    /// </summary>
     class MP3Chart
     {
         int[] votes;
         string[] topTen; 
         const int MAX = 10;
 
+        /// <summary>
+        /// Constructor used for defing the arrays and songs used in the arrays
+        /// </summary>
         public MP3Chart() 
         {
             votes = new int[MAX];
@@ -26,6 +36,9 @@ namespace CO453_ConsoleAppLiam.Unit_5
             topTen[9] = "Sometimes";
         }
 
+        /// <summary>
+        /// This method will show the whole list of songs that were previously defined
+        /// </summary>
         public void ShowMusicList()
         {
             Console.Clear();
@@ -37,6 +50,9 @@ namespace CO453_ConsoleAppLiam.Unit_5
             }
         }
 
+        /// <summary>
+        /// This method will allow you to vote for your favourite song
+        /// </summary>
         public void GetVotes()
         {
             int userVote;
@@ -51,6 +67,9 @@ namespace CO453_ConsoleAppLiam.Unit_5
             }
         }
 
+        /// <summary>
+        /// This method will list out all of the songs with the number of votes they received
+        /// </summary>
         public void ShowVotes()
         {
             int count = 0;

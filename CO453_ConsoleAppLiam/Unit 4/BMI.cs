@@ -4,10 +4,19 @@ using System.Text;
 
 namespace CO453_ConsoleAppLiam.Unit_4
 {
+    /// <summary>
+    /// Class used for the BMI calculator in task 4.4
+    /// The class takes the height and weight of the user and calculates their BMI
+    /// 
+    /// Author: Liam Byrnes
+    /// </summary>
     class BMI
     {
         double bmi, weight, height;
 
+        /// <summary>
+        /// This method asks the user to input their height and weight
+        /// </summary>
         public void GetDetails()
         {
             string input;
@@ -21,11 +30,17 @@ namespace CO453_ConsoleAppLiam.Unit_4
             height = Convert.ToDouble(input);
         }
 
+        /// <summary>
+        /// This method then calculates the BMI of the user based on what they input
+        /// </summary>
         public void CalcBMI()
         {
             bmi = weight / (height * height);
         }
 
+        /// <summary>
+        /// This method then displays a message based on your BMI
+        /// </summary>
         public void DisplayBMI()
         {
             Console.WriteLine("Your BMI is " + bmi);

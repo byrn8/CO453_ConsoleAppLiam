@@ -8,13 +8,13 @@ namespace CO453_ConsoleAppLiam
     {
         static void Main()
         {
-            //RunDistanceConverter(); //Task 4.1 Done
-            //RunHorrorStory(); //Task 4.2 & 4.3 Done
-            //RunBMI(); //Task 4.4 Done
-            //RunTournament(); //Task 5.1 & 5.3 Done
-            //RunMP3Chart(); //Task 5.2 Done
-            //RunBubble(); //Doesn't work :/
-            //RunTraffic(); //Task 5.5 Done (Apart from the percentage task)
+            //RunDistanceConverter(); //Task 4.1 Done //Class/Methods fully commented
+            //RunHorrorStory(); //Task 4.2 & 4.3 Done //Class/Methods fully commented
+            //RunBMI(); //Task 4.4 Done //Class/Methods fully commented
+            RunTournament(); //Task 5.1 & 5.3 Done //Class/Methods fully commented
+            //RunMP3Chart(); //Task 5.2 Done //Class/Methods fully commented
+            //RunBubble(); //Doesn't work :/ //Class/Methods fully commented
+            //RunTraffic(); //Task 5.5 Done (Apart from the percentage task) //Class/Methods fully commented
             //RunMotel(); //Option 1 & 3 Completed (Need to do 2 & 4)
         }
 
@@ -28,7 +28,7 @@ namespace CO453_ConsoleAppLiam
         {
             HorrorStory horrorstory = new HorrorStory();
             horrorstory.GetDetails();
-            horrorstory.CheckGender();
+            horrorstory.ConfirmGender();
             horrorstory.WriteChapter1();
             horrorstory.WriteChapter2();
         }
@@ -72,7 +72,7 @@ namespace CO453_ConsoleAppLiam
             Motel motel = new Motel();
             motel.RunMotel();
         }
-        static void RunRPS()
+        static void RunSPSGame()
         {
             
         }
