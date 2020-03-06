@@ -6,20 +6,27 @@ namespace CO453_ConsoleAppLiam.Unit_5
 {
     /// <summary>
     /// Class used for the bates motel in task 5.6
-    /// The class will 
+    /// The class will give the user 4 different options to choose from
     /// 
-    /// 
+    /// Author: Liam Byrnes
     /// </summary>
     class Motel
     {
         int[] rooms; 
         const int MAX = 21;
+        int roomNumber;
 
+        /// <summary>
+        /// Constructor used to define the array in the program
+        /// </summary>
         public Motel() 
         {
             rooms = new int[MAX]; 
         }
 
+        /// <summary>
+        /// The main method of the program where all the other methods are called from
+        /// </summary>
         public void RunMotel()
         {
             string choice = "";
@@ -41,23 +48,25 @@ namespace CO453_ConsoleAppLiam.Unit_5
                 {
                     BookRoom();
                 }
-                
-                
-                
-                
+                else if (choice == "2")
+                {
+                    VacateOneRoom();
+                }
                 else if (choice == "3")
                 {
                     ShowAllRooms();
                 }
-
-
-
-
-
+                else if (choice == "4")
+                {
+                    VacateAll();
+                }
             }
             while (choice != "5"); 
         }
 
+        /// <summary>
+        /// This method was used for the first option and allows you to book a room in the motel
+        /// </summary>
         public void BookRoom()
         {
             int roomNumber, guests;
@@ -73,6 +82,9 @@ namespace CO453_ConsoleAppLiam.Unit_5
             Console.ReadKey(); 
         }
 
+        /// <summary>
+        /// This method was used for the third choice and will show all the room details
+        /// </summary>
         public void ShowAllRooms()
         {
             {
@@ -86,16 +98,30 @@ namespace CO453_ConsoleAppLiam.Unit_5
             }
         }
 
+        /// <summary>
+        /// This method was used for the second option and will vacate whichever room the user inputs
+        /// </summary>
         public void VacateOneRoom()
         {
-
+            Console.Write("Which room do you want to vacate: ");
+            roomNumber = Convert.ToInt32(Console.ReadLine());
+            rooms[roomNumber] = 0;
+            Console.Write("Room " + roomNumber + " has been vacated");
+            Console.ReadKey();
         }
 
-
-
-
-
-
-
+        /// <summary>
+        /// This method was used for the fourth option and will vacate every room in the motel
+        /// </summary>
+        public void VacateAll()
+        {
+            for (int i = 1; i < MAX; i++)
+            {
+                rooms[i] = 0;
+            }
+            
+            Console.Write("All rooms have been vacated");
+            Console.ReadKey();
+        }
     }
 }

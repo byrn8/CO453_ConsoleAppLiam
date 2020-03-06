@@ -14,7 +14,7 @@ namespace CO453_ConsoleAppLiam.Unit_5
     class Traffic
     {
         int[] TrafficCount;
-        const int MAX = 24;
+        const int MAX = 5;
         int total, busiestTime, busiestCars = 0;
 
         /// <summary>

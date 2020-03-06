@@ -1,5 +1,6 @@
 ﻿using CO453_ConsoleAppLiam.Unit_4;
 using CO453_ConsoleAppLiam.Unit_5;
+using CO453_ConsoleAppLiam.Project;
 using System;
 
 namespace CO453_ConsoleAppLiam
@@ -11,11 +12,12 @@ namespace CO453_ConsoleAppLiam
             //RunDistanceConverter(); //Task 4.1 Done //Class/Methods fully commented
             //RunHorrorStory(); //Task 4.2 & 4.3 Done //Class/Methods fully commented
             //RunBMI(); //Task 4.4 Done //Class/Methods fully commented
-            RunTournament(); //Task 5.1 & 5.3 Done //Class/Methods fully commented
+            //RunTournament(); //Task 5.1 & 5.3 Done //Class/Methods fully commented
             //RunMP3Chart(); //Task 5.2 Done //Class/Methods fully commented
             //RunBubble(); //Doesn't work :/ //Class/Methods fully commented
-            //RunTraffic(); //Task 5.5 Done (Apart from the percentage task) //Class/Methods fully commented
-            //RunMotel(); //Option 1 & 3 Completed (Need to do 2 & 4)
+            //RunTraffic(); //Task 5.5 Done //Class/Methods fully commented
+            //RunMotel(); //Task 5.6 Done //Class/Methods fully commented
+            //RunSPSGame(); //Task Basic Project Done //Class/Methods fully commented
         }
 
         static void RunDistanceConverter()
@@ -56,7 +58,6 @@ namespace CO453_ConsoleAppLiam
         {
             Bubble bubble = new Bubble();
             bubble.InputNumbers();
-            bubble.InputNumbers();
             bubble.Display();
         }
         static void RunTraffic()
@@ -74,7 +75,8 @@ namespace CO453_ConsoleAppLiam
         }
         static void RunSPSGame()
         {
-            
+            SPSGame sps = new SPSGame();
+            sps.Play();
         }
     }
 }
